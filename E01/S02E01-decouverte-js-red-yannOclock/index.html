@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Page de test JavaScript (ouvrez la console de l'outil de développement)</h1>
+    <!-- Grâce à la balise script on peut dire au navigateur que l'on va lui donner des instruction en JavaScript, lui va aller demander l'aide de son moteur JS d'interpretion, celui-ci va lire et exécuter le code rencontrer dans cette balise. -->
+    <script>
+        // Dans ce script on déclare et on assigne une valeur à une variable age. Lorsque le moteur lit cette instruction il va stocker en mémoire cette valeur rattaché a ce nom de variable. par conter si je fais rien d'aute je verrais rien du côté du navigateur au chargement de la page.
+
+        /*Afin de dire au navigateur de ne plus interpréter une ligne d'instruction on peut le commenter. On le fait ici car on ne doit pas mettre de javascript dans le fichier HTML*/
+        //let age = 33;
+
+        // Afin d'avoir la certitude que mon code est bien interprété par le moteur JS du navigateur je dois avoir une action d'affichage. Dans l'instruction suivante je lui demande d'afficher la valeur de ma variable dans la console du navigateur.
+
+        /* Je dois également commenter cette ligne sinon il me fera une erreur "age is not defined" qui veut dire que la variable age n'a pas été déclaré */
+        //console.log(age);
+    </script>
+    <!-- Comme pour le CSS on evitera de mettre du javascript direment dans le HTML on préférera séparé les tomates et les carottes. On va devoir ce que l'on appelle : la spération des préoccupations (SoC : Separation of Concerns) -->
+    <!-- on utilise un fichier particulier avec une extension .js pour y stocker notre JavaScript, et on appelera se fichier a peut prêt de la même façon que l'on appelait un fichier CSS -->
+    <script src="./app.js"></script>
+</body>
+</html>
