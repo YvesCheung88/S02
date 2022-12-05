@@ -1,0 +1,54 @@
+header {
+    background-color: #0d187c;
+    padding: 1rem;
+    
+
+}
+body {
+    background-color: rgb(72, 36, 139);
+}
+
+
+.configuration {
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+    
+
+}
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 480px ;
+    margin: auto;
+    margin-top: 2rem;
+    
+} 
+
+input[type= "submit"] {
+    padding: 0.6rem 0.5rem;
+    font-weight: bold;
+    font-size: 1.1rem;
+    border-radius: 0.2rem;
+    background-color: #9a68af;
+
+}
+
+.squareZone {
+    background-color: rgb(199, 191, 191);
+    border : 2px solid rgb(56, 55, 55);
+    cursor: pointer;
+}
+.squareZone:hover {
+    background-color: rgb(157, 152, 152);
+    scale : 1.1;
+}
+input[type = "text"]{
+    padding: 0.6rem;
+    font-weight: bold;
+    font-size: 1.1rem;
+    border-radius: 0.2rem;
+
+}  
